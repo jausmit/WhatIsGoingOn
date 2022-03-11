@@ -1,0 +1,10 @@
+@keyframes whatIsGoingOn {
+    from { filter: saturate(0) grayscale(0) }
+    to   { filter:  saturate(100) grayscale(100) invert(100%)}
+}
+
+img, video {
+    animation-name: whatIsGoingOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
